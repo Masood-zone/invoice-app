@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import NotFound from "./pages/notfound";
-import Signup from "./pages/signup";
 import Login from "./pages/login";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Signup from "./components/signup";
 
 function App() {
   return (

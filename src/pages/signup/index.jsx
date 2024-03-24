@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { signupImage } from "../../assets/images";
 import { SIGNUP_INFO } from "./data";
 import Form from "../../components/form";
@@ -31,7 +31,7 @@ function Signup() {
   useEffect(() => {
     if (!loading && success) {
       toast.success("User created!");
-      navigate("/login");
+      navigate("/home");
       dispatch(reset());
     }
     if (error) {
@@ -47,7 +47,7 @@ function Signup() {
         <img src={signupImage} alt="signup-logo" className="w-full h-full" />
       </div>
       {/* Form Content */}
-      <div className="w-[30%] flex flex-col items-center h-full py-5 bg-slate-100 m-0 scale- max-xl:scale-63 max-lg:w-full max-lg:h-full overflow-y-scroll">
+      <div className="w-[30%] flex flex-col items-center h-full py-5 bg-slate-100 m-0 max-lg:w-full max-lg:h-full overflow-y-scroll">
         <h1 className="text-4xl font-semibold py-2">Sign In</h1>
         <p className="text-xl italic">Let's get you started!</p>
         {/* Form */}

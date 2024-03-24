@@ -1,3 +1,15 @@
 {
-  "user": []
+  "user": [
+    {
+      "id": "7d75",
+      "name": "Masood Acheampong",
+      "email": "masoodacheampong@gmail.com",
+      "phoneNumber": "0554476960",
+      "streetAddress": "291 Nana Agyanim street, Ghana",
+      "postCode": "23315",
+      "city": "Central region, Assin Fosu",
+      "country": "Ghana",
+      "password": "pass123"
+    }
+  ]
 }
