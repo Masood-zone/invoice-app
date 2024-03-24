@@ -4,7 +4,7 @@ import NotFound from "./pages/notfound";
 import Login from "./pages/login";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Signup from "./components/signup";
+import Signup from "./pages/signup";
 
 function App() {
   return (
